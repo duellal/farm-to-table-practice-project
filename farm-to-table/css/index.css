@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%; /* Helps with responsive design: It can never be bigger than parent. It helps with images that like to break outside of their wrappers */
-    border: 1px solid grey; /* For styling to see what is happening */
+    /* border: 1px solid grey; */ /* For styling to see what is happening */
 }
 
 /* Using rems - everything is based off of the below font-size set on the html */
@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    font-size: 1.6 rem;
+    font-size: 1.6rem;
     line-height: 1.5; /* line-height: never give unit of measurement to; takes font-size and it multiplies it to add space between the lines */
     color: #4f4f4f;
     font-family: 'PT Sans', sans-serif;
@@ -247,6 +247,10 @@ footer div{
     width:30%;
 }
 
+footer h3{
+    margin-bottom:2%;
+}
+
 footer nav a{
     color: white;
 }
@@ -266,4 +270,12 @@ footer nav a:hover{
     align-items: center;
 }
 
+.footerNav a{
+    margin:2% 0;
+}
 
+.copyright{
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+}
