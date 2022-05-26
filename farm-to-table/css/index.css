@@ -123,3 +123,73 @@ header nav{
     background-color: white;
 }
 
+/* Empty Section */
+.bg-img{
+    background-image: url('../images/dirt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:40vh;
+    background-attachment: fixed;
+}
+
+/* About Section */
+#about div{ /* Can use flex box here but don't have to; instead see margin */
+    width: 60%;
+    margin: 0 auto; /* adjusts margins so they are equal on each side (left and right) */
+    padding: 4%;
+    background-color: #fff;
+    border: 3px solid #4f4f4f;
+    text-align: center;
+}
+
+/* Gallery Section */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+} 
+
+.farm{
+    width: 40%;
+    height:40vh;
+    margin:2% 0;
+    background-image: url(../images/barn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cooking{
+    width: 40%;
+    height:40vh;
+    margin:2% 0;
+    background-image: url(../images/cook.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.produce{
+    width: 40%;
+    height:40vh;
+    margin:2% 0;
+    background-image: url(../images/produce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.animals{
+    width: 40%;
+    height:40vh;
+    margin:2% 0;
+    background-image: url(../images/sheep.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
