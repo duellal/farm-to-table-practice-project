@@ -1,0 +1,59 @@
+*{ /* Below is a CSS reset - aims to wipe the default browser styles cleanly - to make it look consistent with any browser used */
+    box-sizing: border-box; /* when a box is given a width, if added padding or border, apply it with the given width, not in addition to it. */
+    padding: 0;
+    margin: 0;
+    max-width: 100%; /* Helps with responsive design: It can never be bigger than parent. It helps with images that like to break outside of their wrappers */
+    border: 1px solid grey; /* For styling to see what is happening */
+}
+
+/* Using rems - everything is based off of the below font-size set on the html */
+html{
+    font-size: 62.5%; /* this makes 1 rem = 10px */
+}
+
+body{
+    font-size: 1.6 rem;
+    line-height: 1.5; /* line-height: never give unit of measurement to; takes font-size and it multiplies it to add space between the lines */
+    color: #4f4f4f;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+i{
+    font-size: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+    transition: 2s;
+}
+
+a:hover{
+    color: #fcb131;
+}
+
+section{
+    padding: 4% 0; /* 4% of the body (parent element) */
+}
+
+/* Top Section */
+#top{
+    height: 90vh; /*Pushes everything w/o the top id down */
+}
