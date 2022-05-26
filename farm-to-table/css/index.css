@@ -53,7 +53,56 @@ section{
     padding: 4% 0; /* 4% of the body (parent element) */
 }
 
+/* Header Section */
+header nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 2% 0;
+    position: fixed;
+    width:100%;
+    z-index: 999; /* Puts the element to the forefront and everything else is behind it */
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.links{
+    display: flex;
+    width:50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    width:8%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} 
+
+.button{
+    display: inline-block; /* Only time using inline in the "real" world */
+    width: 20%;
+    text-align: center;
+    padding: 2% 4%;
+    border-radius: 10px;
+    background-color: #fcb131;
+    color: #fff;
+    transition: 2s;
+    border: 3px solid #fcb131
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #fcb131;
+}
+
+
 /* Top Section */
 #top{
     height: 90vh; /*Pushes everything w/o the top id down */
+    background-image: url('../images/header.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
